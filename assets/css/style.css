@@ -17,7 +17,7 @@ header {
     justify-content: center;
     flex-direction: column;
     background-color: burlywood;
-    padding; 1rem 0;
+    padding: 1rem 0;
     box-shadow: 0 2px 2px #3a3a3a;
 }
 .logo {
@@ -39,10 +39,4 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 2rem;
-}
-
-.container {
-}
-
-.foods {
 }
