@@ -1,0 +1,13 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap') async;
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* General Styles */
+body {
+    background-color: antiquewhite;
+    font-family: "Jura", sans-serif;
+}
