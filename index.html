@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- font awesome and google fonts -->
+    <!-- font awesome -->
     <script src="https://kit.fontawesome.com/30e9fb9fc7.js" crossorigin="anonymous"></script>
     
-    <title>What's for Dinner</title>
+    <title>What's for Dinner?</title>
     <!--favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
@@ -24,79 +24,84 @@
     <!-- Header -->
     <header>
         <div class="logo"><i class="fa-solid fa-utensils"></i></div>
-        <h2 class="heading">What's for Dinner</h2>
+        <h2 class="heading">What's for Dinner?</h2>
     </header>
     <!-- Category Selection -->
     <div class="mood-section">
 
         <div class="mood-heading">
-            I'm in the mood for... 
+            <h3>I'm in the mood for...</h3>
         </div>
 
         <div class="moods">
-            <button class="btn btn--big btn--orange">
-                Mexican
-            </button>
-            <button class="btn btn--big btn--orange">
-                Italian
-            </button>
-            <button class="btn btn--big btn--orange">
-                Indian
-            </button>
-            <button class="btn btn--big btn--orange">
-                Japanese
-            </button>
-            <button class="btn btn--big btn--orange">
-                Irish
-            </button>
-            <button class="btn btn--big btn--orange">
-                Moroccan
-            </button>
-            <button class="btn btn--big btn--orange">
-                Spanish
-            </button>
-            <button class="btn btn--big btn--orange">
-                <i class="fa-solid fa-temperature-full"></i>
-                Spice
-            </button>
-            <button class="btn btn--big btn--orange">
-                <i class="fa-solid fa-temperature-empty"></i>
-                Low Spice
-            </button>
-            <button class="btn btn--big btn--orange">
-                <i class="fa-solid fa-calendar-week"></i>
-                Batch cooking
-            </button>
-            <button class="btn btn--big btn--orange">
-                <i class="fa-solid fa-stopwatch"></i>
-                A quick meal
-            </button>
-            <button class="btn btn--big btn--orange">
-                Potatoes
-            </button>
-            <button class="btn btn--big btn--orange">
-                Rice
-            </button>
-            <button class="btn btn--big btn--orange">
-                Tomatoes
-            </button>
-            <button class="btn btn--big btn--orange">
+            <div class="mds-cuisine">
+                <button class="btn">
+                    Mexican
+                </button>
+                <button class="btn">
+                    Italian
+                </button>
+                <button class="btn">
+                    Indian
+                </button>
+                <button class="btn">
+                    Japanese
+                </button>
+                <button class="btn">
+                    Irish
+                </button>
+                <button class="btn">
+                    Moroccan
+                </button>
+                <button class="btn">
+                    Spanish
+                </button>
+            </div>
+            <div class="mds-type">
+                <button class="btn">
+                    <i class="fa-solid fa-temperature-full"></i>
+                    Spice
+                </button>
+                <button class="btn">
+                    <i class="fa-solid fa-temperature-empty"></i>
+                    Low Spice
+                </button>
+                <button class="btn">
+                    <i class="fa-solid fa-calendar-week"></i>
+                    Batch cooking
+                </button>
+                <button class="btn">
+                    <i class="fa-solid fa-stopwatch"></i>
+                    A quick meal
+                </button>
+            </div>
+            <div class="mds-ingredients">
+                <button class="btn">
+                    Potatoes
+                </button>
+                <button class="btn">
+                    Rice
+                </button>
+                <button class="btn">
+                    Tomatoes
+                </button>
+            </div>
+            <button class="btn">
                 ...a surprise!
             </button>
         </div>
         
     </div>
     <!--Meal Suggestions -->
-    <!-- Code structure copied from OnlineITtuts-->
+    <!-- Code structure copied with my own edits from OnlineITtuts-->
     <div class="container">
         <div class="foods-wrapper">
-
             <div class="foods">
                 <div class="foods-img">
                     <img src="assets/images/chana-masala.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3 class="title">Chana Masala</h3>
+                    <h4 class="title">Chana Masala</h4>
                     <p>Cook Time</p>
                     <p>Recipe</p>
                     <p>Shopping List</p>
@@ -107,7 +112,7 @@
                     <img src="assets/images/gazpacho.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3 class="title">Gazpacho</h3>
+                    <h4 class="title">Gazpacho</h4>
                     <p>Cook Time</p>
                     <p>Recipe</p>
                     <p>Shopping List</p>
@@ -118,7 +123,7 @@
                     <img src="assets/images/paella.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3 class="title">Paella</h3>
+                    <h4 class="title">Paella</h4>
                     <p>Cook Time</p>
                     <p>Recipe</p>
                     <p>Shopping List</p>
@@ -129,7 +134,7 @@
                     <img src="assets/images/pesto-pasta.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3 class="title">Pesto Pasta</h3>
+                    <h4 class="title">Pesto Pasta</h4>
                     <p>Cook Time</p>
                     <p>Recipe</p>
                     <p>Shopping List</p>
@@ -140,7 +145,7 @@
                     <img src="assets/images/pizza.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3 class="title">Pizza</h3>
+                    <h4 class="title">Pizza</h4>
                     <p>Cook Time</p>
                     <p>Recipe</p>
                     <p>Shopping List</p>
@@ -151,7 +156,7 @@
                     <img src="assets/images/potato-stew.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3 class="title">Potato Stew</h3>
+                    <h4 class="title">Potato Stew</h4>
                     <p>Cook Time</p>
                     <p>Recipe</p>
                     <p>Shopping List</p>
@@ -162,7 +167,7 @@
                     <img src="assets/images/ramen.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3 class="title">Ramen</h3>
+                    <h4 class="title">Ramen</h4>
                     <p>Cook Time</p>
                     <p>Recipe</p>
                     <p>Shopping List</p>
@@ -173,7 +178,7 @@
                     <img src="assets/images/sushi.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3 class="title">Sushi</h3>
+                    <h4 class="title">Sushi</h4>
                     <p>Cook Time</p>
                     <p>Recipe</p>
                     <p>Shopping List</p>
@@ -184,7 +189,7 @@
                     <img src="assets/images/Sweet-potato-lentil-soup.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3 class="title">Sweet Potato and Lentil Soup</h3>
+                    <h4 class="title">Sweet Potato and Lentil Soup</h4>
                     <p>Cook Time</p>
                     <p>Recipe</p>
                     <p>Shopping List</p>
@@ -195,7 +200,7 @@
                     <img src="assets/images/tagine.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3 class="title">Vegetable and Bean Tagine</h3>
+                    <h4 class="title">Vegetable and Bean Tagine</h4>
                     <p>Cook Time</p>
                     <p>Recipe</p>
                     <p>Shopping List</p>
@@ -206,7 +211,7 @@
                     <img src="assets/images/tarka-dhal.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3 class="title">Tarka Dhal</h3>
+                    <h4 class="title">Tarka Dhal</h4>
                     <p>Cook Time</p>
                     <p>Recipe</p>
                     <p>Shopping List</p>
@@ -217,7 +222,7 @@
                     <img src="assets/images/three-bean-chilli.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3 class="title">Three Bean Chilli</h3>
+                    <h4 class="title">Three Bean Chilli</h4>
                     <p>Cook Time</p>
                     <p>Recipe</p>
                     <p>Shopping List</p>
@@ -228,7 +233,7 @@
                     <img src="assets/images/tofu-enchiladas.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3 class="title">Tofu Enchiladas</h3>
+                    <h4 class="title">Tofu Enchiladas</h4>
                     <p>Cook Time</p>
                     <p>Recipe</p>
                     <p>Shopping List</p>
@@ -239,13 +244,12 @@
                     <img src="assets/images/vegan-sunday-roast.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3 class="title">Vegan Sunday Roast</h3>
+                    <h4 class="title">Vegan Sunday Roast</h4>
                     <p>Cook Time</p>
                     <p>Recipe</p>
                     <p>Shopping List</p>
                 </div>
             </div>
-
         </div>
     </div>
 
