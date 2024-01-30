@@ -40,3 +40,7 @@ a {
     justify-content: space-between;
     padding: 2rem;
 }
+
+img {
+    max-width: 30%;
+}
