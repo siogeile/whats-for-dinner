@@ -20,7 +20,6 @@ header {
     align-items: center;
     box-shadow: 0 2px 2px #3a3a3a;
 }
- 
 .logo {
     font-size: 4rem;
 }
@@ -46,7 +45,6 @@ img {
     margin-bottom: 1rem;
     border-radius: 4px;
     text-align: center;
-    text-decoration: none; 
     display: inline-block;
     font-size: 16px;
     transition-duration: 0.2s;
