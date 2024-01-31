@@ -84,10 +84,18 @@ img {
     row-gap: 2rem;
 }
 .foods {
-    background-color: coral;
+    background-color: white;
     border-radius: 4px;
     transition-duration: 0.2s;
 }
 .foods:hover {
     transform: scale(1.05);
+}
+.foods-img img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.content {
+    padding: 1rem;
 }
