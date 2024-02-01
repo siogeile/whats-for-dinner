@@ -49,7 +49,7 @@ img {
     font-size: 16px;
     transition-duration: 0.2s;
 }
- .btn .active {
+ .btn.active {
     background-color: cornflowerblue;
     border: 1px solid cornflowerblue;
     color: white;
@@ -70,7 +70,7 @@ img {
     border: 1px solid saddlebrown;
 }
 /* Category Selection Box */
-.mds-cuisine, .mds-type, .mds-ingredients, .mds-surprise {
+.moodCuisine, .moodType, .moodIngredients, .moodSurprise {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -121,7 +121,7 @@ img {
 }
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    .mds-cuisine, .mds-type, .mds-ingredients, .mds-surprise {
+    .moodCuisine, .moodType, .moodIngredients, .moodSurprise {
         padding: 5px 10px;
         margin: 1rem 3rem;
     }
