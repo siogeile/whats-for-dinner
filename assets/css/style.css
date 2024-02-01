@@ -8,17 +8,18 @@
 }
 /* General Styles */
 body {
-    background-color: antiquewhite;
+    background-color: #c4a287;
     font-family: "Jura", sans-serif;
 }
 header {
-    background-color: burlywood;
+    background-color: #445E93;
+    color: #C4A287;
     padding: 1rem 0;
     display: flex;
     width: 100%;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #897361;
 }
 .logo {
     font-size: 3rem;
@@ -29,6 +30,11 @@ header {
 /* No styling on links */
 a {
     text-decoration: none;
+    color: #ABE188;
+    background-color: #784F41;
+    padding: 5px 5px;
+    border-radius: 2px;
+
 }
 /* Image styles */
 img {
@@ -36,9 +42,9 @@ img {
 }
 /* button styles */
 .btn {
-    background-color: burlywood;
-    border: 1px solid black;
-    color: black;
+    background-color: #445E93;
+    border: 1px solid #445E93;
+    color: #fff;
     /* used BARD AI to get the next line of code so the individual buttons would grow to fill the space on each row of the flexbox */
     flex: 1 1 auto;
     padding: 10px 10px;
@@ -48,26 +54,12 @@ img {
     display: inline-block;
     font-size: 16px;
     transition-duration: 0.2s;
-}
- .btn.active {
-    background-color: cornflowerblue;
-    border: 1px solid cornflowerblue;
-    color: white;
-    /* used BARD AI to get the next line of code so the individual buttons would grow to fill the space on each row of the flexbox */
-    flex: 1 1 auto;
-    padding: 10px 10px;
-    border-radius: 2px;
-    text-align: center;
-    /* not sure if the next line of code is needed */
-    display: inline-block;
-    font-size: 16px;
-    transition-duration: 0.2s;
-    font-weight: bolder;
 }
 .btn:hover {
-    background-color: antiquewhite;
-    color: saddlebrown;
-    border: 1px solid saddlebrown;
+    background-color: #7EB2DD;
+    color: #784F41;
+    border: 1px solid #784F41;
+    font-weight: bolder;
 }
 /* Category Selection Box */
 .moodCuisine, .moodType, .moodIngredients, .moodSurprise {
@@ -90,7 +82,7 @@ img {
     row-gap: 2rem;
 }
 .filterFoods {
-    background-color: white;
+    background-color: #fff;
     border-radius: 4px;
     transition-duration: 0.2s;
     /* Hide unselected meals */
@@ -111,6 +103,9 @@ img {
 .content {
     padding: 1rem;
 }
+.recipe {
+    margin-top: 1rem;
+}
 /* Media Queries */
 /* Larger devices (large phones, tablets and bigger) */
 @media screen and (min-width: 540px) {
@@ -121,13 +116,16 @@ img {
 }
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+    .moods {
+        margin: 2rem 0;
+    }
     .moodCuisine, .moodType, .moodIngredients, .moodSurprise {
         padding: 5px 10px;
-        margin: 1rem 3rem;
+        margin: 2rem 3rem;
     }
     .foods-wrapper {
         padding: 5px 10px;
-        margin: 1rem 3rem;
+        margin: 2rem 3rem;
         /* The next line of code was copied from OnlineITtuts Tutorials on YouTube */
         grid-template-columns: repeat(3, 4fr);
     }
