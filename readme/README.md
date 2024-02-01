@@ -76,3 +76,18 @@ Key information for the site
 #### Frequent Visitor Goals
 * I want to access my favorites.
 * I want to add my own meals/recipes
+
+
+## Design
+
+### Colour Scheme
+
+I used browns (with hints of bright green) to mirror the color of the earth all of the delicious plant-based food grows from, along with calming blues to enhance the feeling of stress-reduction that the application will bring to users.
+
+![picture alt](/readme/whats-for-dinner-palette.png "palette generated with coolors.co")
+[Palette generated with coolors.co](https://coolors.co/)
+
+### Typography
+Jura from [Google Fonts](https://fonts.google.com/specimen/Jura) is used throughout the site, the font is calm, legible and un-cluttered. It is an accessible sans-serif font.
+
+![picture alt](/readme/jura-google-fonts.png "Jura, sourced from Google Fonts")

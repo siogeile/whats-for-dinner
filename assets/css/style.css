@@ -8,30 +8,33 @@
 }
 /* General Styles */
 body {
-    background-color: #c4a287;
+    background-color: #445E93;
     font-family: "Jura", sans-serif;
 }
 header {
-    background-color: #445E93;
-    color: #C4A287;
+    background-color: #FCE6D9;
+    color: #632C2E;
     padding: 1rem 0;
     display: flex;
     width: 100%;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0 2px 2px #897361;
+    box-shadow: 0 2px 2px #374d77;
 }
 .logo {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-top: 1rem;
 }
 .heading {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
 }
 /* No styling on links */
 a {
     text-decoration: none;
     color: #ABE188;
-    background-color: #784F41;
+    background-color: #632C2E;
     padding: 5px 5px;
     border-radius: 2px;
 
@@ -42,23 +45,21 @@ img {
 }
 /* button styles */
 .btn {
-    background-color: #445E93;
-    border: 1px solid #445E93;
-    color: #fff;
+    background-color: #374D77;
+    border: 1px solid #FCE6D9;
+    color: #FCE6D9;
     /* used BARD AI to get the next line of code so the individual buttons would grow to fill the space on each row of the flexbox */
     flex: 1 1 auto;
     padding: 10px 10px;
-    border-radius: 2px;
+    border-radius: 4px;
     text-align: center;
-    /* not sure if the next line of code is needed */
-    display: inline-block;
     font-size: 16px;
     transition-duration: 0.2s;
 }
 .btn:hover {
     background-color: #7EB2DD;
-    color: #784F41;
-    border: 1px solid #784F41;
+    color: #632C2E;
+    border: 1px solid #632C2E;
     font-weight: bolder;
 }
 /* Category Selection Box */
@@ -121,7 +122,7 @@ img {
     }
     .moodCuisine, .moodType, .moodIngredients, .moodSurprise {
         padding: 5px 10px;
-        margin: 2rem 3rem;
+        margin: .5rem 3rem;
     }
     .foods-wrapper {
         padding: 5px 10px;
