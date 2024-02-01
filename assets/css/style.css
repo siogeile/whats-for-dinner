@@ -36,6 +36,20 @@ img {
 }
 /* button styles */
 .btn {
+    background-color: burlywood;
+    border: 1px solid black;
+    color: black;
+    /* used BARD AI to get the next line of code so the individual buttons would grow to fill the space on each row of the flexbox */
+    flex: 1 1 auto;
+    padding: 10px 10px;
+    border-radius: 2px;
+    text-align: center;
+    /* not sure if the next line of code is needed */
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.2s;
+}
+ .btn .active {
     background-color: cornflowerblue;
     border: 1px solid cornflowerblue;
     color: white;
@@ -48,21 +62,12 @@ img {
     display: inline-block;
     font-size: 16px;
     transition-duration: 0.2s;
+    font-weight: bolder;
 }
 .btn:hover {
     background-color: antiquewhite;
-    color: cornflowerblue;
-    border: 2px solid cornflowerblue;
-}
-/* Cannot select button styles */
-.disabled {
-    opacity: 0.6;
-    cursor: not-allowed;
-}
-.disabled:hover {
-    background-color: cornflowerblue;
-    border: 2px solid cornflowerblue;
-    color: white;
+    color: saddlebrown;
+    border: 1px solid saddlebrown;
 }
 /* Category Selection Box */
 .mds-cuisine, .mds-type, .mds-ingredients, .mds-surprise {
@@ -84,14 +89,18 @@ img {
     column-gap: 1rem;
     row-gap: 2rem;
 }
-.foods {
+.filterFoods {
     background-color: white;
     border-radius: 4px;
     transition-duration: 0.2s;
     /* Hide unselected meals */
     display: none;
 }
-.foods:hover {
+/* Show selected blocks */
+.show {
+    display: block;
+}
+.filterFoods:hover {
     transform: scale(1.05);
 }
 .foods-img img {
