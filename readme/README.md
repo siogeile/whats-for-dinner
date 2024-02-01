@@ -91,3 +91,98 @@ I used browns (with hints of bright green) to mirror the color of the earth all 
 Jura from [Google Fonts](https://fonts.google.com/specimen/Jura) is used throughout the site, the font is calm, legible and un-cluttered. It is an accessible sans-serif font.
 
 ![picture alt](/readme/jura-google-fonts.png "Jura, sourced from Google Fonts")
+
+## Features
+
+The website comprises of one page. The header contains a logo and a tagline that hints towards the purpose of the site.
+
+![picture alt](/readme/logo.png "fontawesome cutlery logo and tagline 'I'm in the mood for...'")
+
+Underneath the header is the category selection area. Here the user will select a button that reflects the type of meal they are "in the mood for". If the user selects "irish" then images of Irish meals will display in the food section. The images will be acompanied by a title, total cook time and a link to a recipe. There will be a button that when clicked, a random meal will be displayed if the user does not want to pick any specific category.
+
+~~screenshots~~
+
+### Future Implementations
+
+* I would like to add multiple selection functionality onto the category buttons, and that buttons with conflicting categories would become disabled until the selection is cleared or the original category button is unclicked
+* I want to make it possible for the user to create their own categories and add their favorite meals and recipes
+* I want to add a "favorites" button
+* I would change the layout of the categories area to reduce clutter - with drop-down or pop-out menus for sub-categories
+
+### Accessibility
+
+I have not finished the accesibility
+
+## Technologies Used
+
+To be continued
+
+### Languages Used
+
+HTML, CSS and JavaScript
+
+### Frameworks, Libraries & Programs Used
+
+* GitHub
+* Gitpod
+* To be continued
+
+## Deployment & Local Development
+
+[Deployed on GitHub Pages](https://siogeile.github.io/whats-for-dinner/)
+
+### Deployment
+
+Information not updated to readme
+
+### Local Development
+
+Information not updated to readme
+
+#### How to Fork
+
+Information not updated to readme
+
+#### How to Clone
+
+Information not updated to readme
+
+## Testing
+
+Section not complete, full information not updated to readme
+
+rought notes copy and pasted:"
+
+I learned how to  use “ctrl” “shift” and “l” when selecting characters or lines of code to search the entire document for exact matches in order to bulk edit all the matches
+
+I had not put class names for “cook time”, “ingredients” and “shopping list” and it would have been very time consuming to edit each line of code individually"
+
+Manual testing: “filter selection is not defined” (syntax error amended)
+
+## Credits and Code Used
+
+
+[Category Filter Using HTML CSS & JavaScript](https://www.youtube.com/watch?v=DfUHpQIjVsg)
+
+
+[Button Styling](https://www.w3schools.com/css/css3_buttons.asp)
+
+[Code for responsive grid design](https://www.youtube.com/watch?v=p3_xN2Zp1TY&t=2s)
+
+[Code for JavaScript button selection]
+(https://stackoverflow.com/questions/46323872/how-to-filter-multiple-elements-items)
+
+BARD and ChatGPT were used to troubleshoot code errors, noted in code
+
+
+### Content
+
+Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+
+###  Media
+
+External websites were linked too and cooking time information was copied from their site
+  
+###  Acknowledgments
+
+Information not updated to readme
